@@ -3,6 +3,7 @@ package example;
 import java.util.Scanner;
 public class Exception_Handling {
 	public static void main(String[] args) {
+		System.out.println("Program started");
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the first number");
 		int n1=sc.nextInt();
@@ -26,6 +27,7 @@ public class Exception_Handling {
 		System.out.println("enter the size of array");
 		int n=sc.nextInt();
 		//System.out.println("enter the array elements");
+		
 		try
 		{
 			System.out.println("enter the array elements");
@@ -33,6 +35,7 @@ public class Exception_Handling {
 			for(int i=0;i<arr.length;i++)
 			{
 				arr[i]=sc.nextInt();
+				
 			}
 			System.out.println("The array elements are: ");
 			for(int i=0;i<arr.length;i++)
@@ -49,6 +52,11 @@ public class Exception_Handling {
 		catch(Exception e)
 		{
 			System.out.println("change the code, there is some error");
+		}
+		
+		finally
+		{
+			System.out.println("Program ended");
 		}
 	}
 
