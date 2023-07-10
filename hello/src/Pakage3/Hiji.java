@@ -9,5 +9,4 @@ public class Hiji {
 		System.out.println(a+b);
 
 	}
-
 }
