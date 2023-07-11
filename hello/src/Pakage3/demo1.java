@@ -4,8 +4,10 @@ public class demo1 {
 	public static void main(String[] args) {
 		System.out.println("Swathi");
 		
-		int a1=20;
-		int b1=30;
+
+		int a2=787;
+		int b2=76;
+
 	}
 
 }
