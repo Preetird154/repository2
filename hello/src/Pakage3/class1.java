@@ -7,9 +7,7 @@ public class class1 {
 		System.out.println("hi preeti");
 		
 
-		System.out.println("welcome to ztoh");
-		System.out.println("hello mister preeti hear");
-
+		
 	    
 	}
 
