@@ -22,6 +22,13 @@ class abc{
 		int res=a+b;
 		System.out.println("Addition: "+res);
 	}
+	
+	public void sub()
+	{
+		int res=a-b;
+		System.out.println("Subtraction: "+res);
+		
+	}
 }
 
 public class Division {
@@ -30,5 +37,6 @@ public class Division {
 		a.div();
 		a.mul();
 		a.add();
+		a.sub();
 	}
 }
