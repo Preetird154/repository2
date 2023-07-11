@@ -5,8 +5,8 @@ public class Hiji {
 	public static void main(String[] args) {
 		
 
-		int x =19;
-		int y=899;
+		int x =40;
+		int y=40;
 		System.out.println(x+y);
 
 
