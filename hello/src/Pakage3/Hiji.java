@@ -4,9 +4,9 @@ public class Hiji {
 
 	public static void main(String[] args) {
 		
-		int a =19;
-		int b=899;
-		System.out.println(a+b);
+		int x =19;
+		int y=899;
+		System.out.println(x+y);
 
 	}
 }
