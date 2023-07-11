@@ -8,8 +8,7 @@ public class class2 {
 		int preeti=10;
 		System.out.println("preeti");
 
-		int a=10;
-		System.out.println(a);
+		
 
 	}
 
